@@ -1,4 +1,4 @@
-import logo from "../../assets/Images/Logo (31).png"
+import logo from "../../assets/images/Logo31.png"
 import { Box, Button, Flex, Image } from '@chakra-ui/react'
 import BurgerMenu from '../ChakraComponents/BurgerMenu';
 

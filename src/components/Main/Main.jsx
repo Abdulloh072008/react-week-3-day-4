@@ -3,12 +3,12 @@ import WebDesign from '../ChakraComponents/WebDesign'
 import Cards from '../ChakraComponents/Cards'
 import Tilte from '../shared/Tilte'
 import CardOuerservese from '../ChakraComponents/CardOuerservese'
-import icon5 from "../../assets/images/Icon Container (5).png"
+import icon5 from "../../assets/images/Icon Container5.png"
 import Imgforservece from '../ChakraComponents/Imgforservece'
-import contaner from "../../assets/images/Container (12).png"
-import contaner1 from "../../assets/images/Container (13).png"
-import contaner2 from "../../assets/images/Container (14).png"
-import contaner3 from "../../assets/images/Container (15).png"
+import contaner from "../../assets/images/Container12.png"
+import contaner1 from "../../assets/images/Container13.png"
+import contaner2 from "../../assets/images/Container14.png"
+import contaner3 from "../../assets/images/Container15.png"
 import CardOurworks from '../shared/CardOurworks'
 import SwiperSlide1 from './../ChakraComponents/SwiperSlide1';
 

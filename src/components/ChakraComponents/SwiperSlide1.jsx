@@ -7,38 +7,13 @@ import CardSwiper from './CatrdSwiper';
 
 const SwiperSlide1 = () => {
   return (
-    <Swiper slidesPerView={4} spaceBetween={30} pagination={{ clickable: true }} modules={[Pagination]} className="mySwiper">
+    <Swiper  breakpoints={{ 1024:{ slidesPerView: 4}, 360:{ slidesPerView: 1}}} spaceBetween={30} pagination={{ clickable: true }} modules={[Pagination]} className="mySwiper">
 
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
-      <SwiperSlide>
-        <CardSwiper />
-      </SwiperSlide>
+      {Array.from({length:10}).map((_,i)=>(
+        <SwiperSlide key={i}>
+          <CardSwiper />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };

@@ -1,4 +1,4 @@
-import shape from "../../assets/Images/Shape (1).png"
+import shape from "../../assets/images/Shape1.png"
 import { Flex, Image, Text } from '@chakra-ui/react'
 
 

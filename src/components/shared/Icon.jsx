@@ -1,4 +1,4 @@
-import icon from "../../assets/Images/Icon Container (4).png"
+import icon from "../../assets/images/Icon Container4.png"
 
 const Icon = ({text}) => {
   return (

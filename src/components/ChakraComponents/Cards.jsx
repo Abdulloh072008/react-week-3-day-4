@@ -1,5 +1,5 @@
 import { Card, Image } from "@chakra-ui/react"
-import sub from "../../assets/Images/Sub Container (1).png"
+import sub from "../../assets/images/Sub Container1.png"
 
 
 const Cards = () => {

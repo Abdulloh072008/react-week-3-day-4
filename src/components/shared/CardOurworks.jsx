@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { ArrowUpRight } from "lucide-react";
-import icon6 from "../../assets/Images/Icon Container (6).png"
+import icon6 from "../../assets/images/Icon Container6.png"
 
 const CardOurworks = ({text}) => {
     return (
@@ -10,7 +10,7 @@ const CardOurworks = ({text}) => {
                 p={4}
                 rounded="xl"
                 gap={2}
-                w={595}
+                w={{lg:595}}
                 maxW="900px"
                  mt={3}
                  flexDirection={{lg:"row",base:"column-reverse"}}
